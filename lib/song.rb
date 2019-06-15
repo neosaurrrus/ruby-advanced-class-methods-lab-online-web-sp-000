@@ -41,11 +41,9 @@ class Song
   def self.find_or_create_by_name(name)
     check = Song.find_by_name(name)
     puts "name #{name} check #{check}"
-    if check == false
-        self.create_by_name(name)
-    else
-      check
-    end
+
+    self.create_by_name(name)
+    
   end # method
 
 
