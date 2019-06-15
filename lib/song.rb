@@ -32,9 +32,9 @@ class Song
   end
 
   def self.find_by_name(name)
-    result = ""
+
     search = @@all.find{ |song| song.name == name}
-    search != nil ? result = search : result = false
+    search != nil ? search : false
     result
   end # findbyname
 
