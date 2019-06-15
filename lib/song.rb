@@ -35,6 +35,7 @@ class Song
     search != nil ? search : false
   end # findbyname
 
+  
   #
   # def self.find_or_create_by_name(name)
   #   check = self.find_by_name(name)
@@ -52,7 +53,7 @@ class Song
 
   def self.destroy_all
     @all = []
-  end
+  end #method
 
 
 end # end of class
