@@ -48,6 +48,11 @@ class Song
     #   a.name <=> b.name
     # end #iterator
     sorted
-  end #method
+  end #method#
+
+  def self.destroy_all
+    @all = []
+  end
+    
 
 end # end of class
