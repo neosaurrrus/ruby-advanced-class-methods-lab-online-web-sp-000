@@ -36,12 +36,10 @@ class Song
   end # findbyname
 
 
-  #
-  # def self.find_or_create_by_name(name)
-  #   check = self.find_by_name(name)
-  #   check ? check : self.create_by_name(name)
-  #
-  # end # method
+  def self.find_or_create_by_name(name)
+    check = self.find_by_name(name)
+    check ? check : self.create_by_name(name)
+  end # method
 
   def self.alphabetical
     sorted = @@all
