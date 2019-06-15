@@ -42,6 +42,7 @@ class Song
     if check == true
       check
     elsif check == false
+      puts name
       self.create_by_name(name)
     end
   end # method
