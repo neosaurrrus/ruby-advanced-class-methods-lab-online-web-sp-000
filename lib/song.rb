@@ -42,7 +42,7 @@ class Song
     if check == false
         self.create_by_name(name)
     elsif check == false
-    
+
     end
   end # method
 
