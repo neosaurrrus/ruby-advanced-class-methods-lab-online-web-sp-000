@@ -41,7 +41,7 @@ class Song
 
   def self.find_or_create_by_name(name)
     check = Song.find_by_name(name)
-    pry.binding
+    binding.pry
     puts "name #{name} check #{check}"
 
     self.create_by_name(name)
