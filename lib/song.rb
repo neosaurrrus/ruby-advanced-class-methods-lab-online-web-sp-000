@@ -37,7 +37,7 @@ class Song
 
 
   def self.find_or_create_by_name(name)
-    check = self.find_by_name(name)
+    check = Song.find_by_name(name)
     puts "name #{name} check #{check}"
     if check
       return check
