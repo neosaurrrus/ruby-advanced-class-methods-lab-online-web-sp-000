@@ -35,7 +35,7 @@ class Song
 
     search = @@all.find{ |song| song.name == name}
     search != nil ? search : false
-  
+
   end # findbyname
 
 
