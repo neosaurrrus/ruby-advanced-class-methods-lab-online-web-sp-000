@@ -37,6 +37,7 @@ class Song
 
 
   def self.find_or_create_by_name(name)
+    puts name
     check = self.find_by_name(name)
 
     if check != false
@@ -46,6 +47,10 @@ class Song
       puts name
     end
   end # method
+
+
+
+
 
   def self.alphabetical
     sorted = @@all
