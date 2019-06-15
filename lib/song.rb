@@ -43,7 +43,7 @@ class Song
     puts "name #{name} check #{check}"
 
     self.create_by_name(name)
-    
+
   end # method
 
 
