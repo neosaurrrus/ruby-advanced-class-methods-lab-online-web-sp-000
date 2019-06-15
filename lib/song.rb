@@ -41,7 +41,7 @@ class Song
     puts check
     if check == true
       check
-    elsif check == nil
+    elsif check == false
       self.create_by_name(name)
     end
   end # method
