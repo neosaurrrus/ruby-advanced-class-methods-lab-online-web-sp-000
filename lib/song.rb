@@ -40,7 +40,7 @@ class Song
     check = self.find_by_name(name)
     if check == true
       check
-    elsif check == false
+    elsif check == nil
       self.create_by_name(name)
     end
   end # method
