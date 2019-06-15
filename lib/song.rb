@@ -40,7 +40,7 @@ class Song
     puts name
     check = self.find_by_name(name)
 
-    if check 
+    if check
       return check
     elsif check == false
       self.create_by_name(name)
