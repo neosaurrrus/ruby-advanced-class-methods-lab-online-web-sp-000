@@ -41,8 +41,8 @@ class Song
     puts "name #{name} check #{check}"
     if check == false
         self.create_by_name(name)
-    elsif check == false
-
+    else
+      check
     end
   end # method
 
